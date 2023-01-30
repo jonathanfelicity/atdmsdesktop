@@ -1,0 +1,21 @@
+{
+  "name": "atdmsdesktop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "build": {
+    "appId": "com.admin.dashboard",
+    "win": {
+      "target":["msi"]
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^22.0.3",
+    "electron-builder": "^23.6.0"
+  },
+  "dependencies": {}
+}
